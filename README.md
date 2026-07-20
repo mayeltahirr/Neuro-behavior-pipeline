@@ -44,6 +44,11 @@ raw spikes + ethogram --> features.py --> model.py --> repository.py
   `behavior_bouts`, `model_results` tables) -- the "data curation and
   storage in a research repository" part.
 - **`src/pipeline.py`** -- runs all of the above in order from the CLI.
+- **`data/`** -- a small example of what the synthetic data actually looks
+  like (`example_behavior_bouts.csv`, `example_spike_times.csv`), so you
+  can see the shape of it without running anything first. See
+  `data/README.md` for details -- everything in there is synthetic, not
+  from a real animal.
 
 ## Running it
 
